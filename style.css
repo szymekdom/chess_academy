@@ -7,8 +7,42 @@
 body{
     font-family: 'Arial', sans-serif;
     background-color: #222;
-    color: white
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
+
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #111; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db; 
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    padding: 5px 10px;
+}
+
 
 a{
     color: white;
@@ -21,23 +55,41 @@ a{
 }
 
 a:hover{
-    background-color: #3498db; /* Tło zmienia się na białe */
+    background-color: #3498db; 
     color: #000000;
 }
 
 main{
+    flex: 1;
     display:flex;
     flex-direction: row;
+    height: 100%;
 }
 footer{
     text-align: center;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #333;
+}
+
 article{
+    text-align: center;
     font-size: 22px;
     width: 80%;
     padding: 40px;
-    text-align: center;
+    height: 100%;
+    
 }
+
+.board{
+    height: 100%;
+}
+
 
 
