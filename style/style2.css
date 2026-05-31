@@ -1,0 +1,60 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    min-height: 70vh;
+    width: 100%;
+}
+
+.hero h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.parent-box{
+    
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #111;
+    min-width: 300px;
+    width: 38%;
+    font-size: 24px;
+    border-radius: 25px;
+    text-align: center;
+    height: 200px;
+    border: 2px solid #3498db;
+    margin: 30px;
+    min-height: 30%;
+    height: 230px;
+    padding:10px;
+    
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px #3498db;;
+}
+
+.box h3{
+    padding-bottom: 10px;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+
