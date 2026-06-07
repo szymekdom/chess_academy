@@ -62,7 +62,7 @@ article{
     border-radius: 15px;
     text-align: center;
     height: 200px;
-    box-shadow: 0 0 30px #3498db;
+    border: 2px solid #3498db;
     
 }
 
@@ -74,3 +74,8 @@ article{
     
 }
 
+.box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px #3498db;
+    
+}
