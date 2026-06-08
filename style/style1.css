@@ -87,7 +87,6 @@ article{
         text-align: center;
         padding: 30px;
     }
-
     article{
         max-width: 90%;
         padding: 20px;
@@ -105,5 +104,29 @@ article{
 
     .box{
         width: 45%;
+    }
+}
+
+
+@media (max-width: 768px)
+{
+    article{
+        max-width: 100%;
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero h1{
+        font-size: 28px;
+    }
+    .board{
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .box{
+        width: 90%;
+        font-size: 20px;
     }
 }
