@@ -133,13 +133,13 @@ footer {
         align-items: center;
     }
 
-    /* logo zostaje widoczne */
+    
     .logo {
         display: block;
         font-size: 18px;
     }
 
-    /* menu idzie na dół */
+    
     .menu {
         position: fixed;
         bottom: 0;
