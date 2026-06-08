@@ -79,3 +79,31 @@ article{
     box-shadow: 0 15px 30px #3498db;
     
 }
+
+@media (max-width: 1024px){
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    article{
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .board{
+        width: 70%;
+        margin: 20px;
+    }
+
+    .parent-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box{
+        width: 45%;
+    }
+}
