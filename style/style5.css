@@ -33,3 +33,24 @@
 .gallery-grid img:hover{
     transform: scale(1.05);
 }
+
+
+@media (max-width: 768px){
+
+    .gallery{
+        padding: 20px;
+    }
+
+    .hero h1{
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .gallery-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid img{
+        height: 300px;
+    }
+}
